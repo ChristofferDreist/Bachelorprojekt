@@ -1,34 +1,27 @@
 # Bachelorprojekt
 
-### 1. Oprettelse af virtuelt miljø
-For at oprette et nyt virtuelt miljø med conda til Python, skal du følge nedenstående trin:
+This project fetches quarterly reports from the top 50 Danish companies based on market capitalization and extracts their forecasts for the upcoming quarter. The data is retrieved from the LassoX API, and the forecasts are located within their respective quarterly financial reports.
 
-1. Åbn en terminal eller kommandoprompt.
-2. Naviger til den mappe, hvor du vil oprette det virtuelle miljø.
-3. Kør følgende kommando for at oprette et nyt virtuelt miljø med Python:
+## Get Software
 
-    ```sh
-    conda create --name myenv python=3.11
+To get started, you must first download the folder to your computer.
+
+## Create a Virtual Environment
+
+1. Create a new Conda environment by running:
+
+    ```bash
+    conda create --name bachelorprojekt python=3.11  # Name and version is up to you.
     ```
 
-    Her opretter vi et virtuelt miljø kaldet `myenv` med Python version 3.11. Du kan vælge et andet navn eller Python version, hvis du ønsker det.
+2. Select your environment in VS Code. To do this, open the command palette using `ctrl+Shift+P`, type `Python: Select Interpreter`, and select your environment (`bachelorprojekt`) from the list. If it does not appear, select **Enter interpreter path** and navigate to it.
 
-4. Aktiver det virtuelle miljø:
+3. Navigate to the `bachelorprojekt` folder and run:
 
-    ```sh
-    conda activate myenv
+    ```bash
+    conda install -c conda-forge --file requirements_conda.txt
+    pip install -r requirements_pip.txt
     ```
-
-5. Når det virtuelle miljø er aktiveret, vil du se navnet på miljøet i terminalprompten. Nu kan du installere de nødvendige afhængigheder ved hjælp af `conda` eller `pip`.
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-    Sørg for, at du har en `requirements.txt`-fil i din projektmappe, som indeholder alle de nødvendige afhængigheder.
-
-Når du er færdig med at arbejde i det virtuelle miljø, kan du deaktivere det ved at køre:
-
 ```sh
 conda deactivate
 ```
