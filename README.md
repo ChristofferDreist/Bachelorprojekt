@@ -1,7 +1,5 @@
 # Bachelorprojekt
 
-This project fetches quarterly reports from the top 50 Danish companies based on market capitalization and extracts their forecasts for the upcoming quarter. The data is retrieved from the LassoX API, and the forecasts are located within their respective quarterly financial reports.
-
 ## Get Software
 
 To get started, you must first download the folder to your computer.
