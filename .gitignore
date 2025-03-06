@@ -1,8 +1,8 @@
 /Data
-Notebooks\cleaned_transport_graph.gpickle
-Notebooks\interactive_transport_map.html
-Notebooks\interactive_transport_map2.html
-Notebooks\zealand_cleaned_transport_graph.gpickle
-Notebooks\zealand_stop_times.csv
-Notebooks\zealand_stops.csv
-Notebooks\zealand_transport_map.html
+Notebooks/cleaned_transport_graph.gpickle
+Notebooks/interactive_transport_map.html
+Notebooks/interactive_transport_map2.html
+Notebooks/zealand_cleaned_transport_graph.gpickle
+Notebooks/zealand_stop_times.csv
+Notebooks/zealand_stops.csv
+Notebooks/zealand_transport_map.html
