@@ -2,3 +2,4 @@ networkx
 folium
 scikit-learn
 tqdm
+openpyxl

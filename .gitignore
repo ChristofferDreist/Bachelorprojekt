@@ -1,4 +1,8 @@
 /Data
+/Billeder + Gantt
+/DEPRECATED
+/Outputs
+/cache
 Notebooks/cleaned_transport_graph.gpickle
 Notebooks/interactive_transport_map.html
 Notebooks/interactive_transport_map2.html
